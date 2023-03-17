@@ -24,7 +24,13 @@ function roll() {
     1000
     );
 }
-roll();
+
+let lanciaButton = document.getElementById("lancia-button");
+lanciaButton.addEventListener("click", function() {
+  
+    roll(); 
+  
+});
     
     
 
